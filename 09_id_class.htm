@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div span id and class</title>
+    <style>
+        .card{
+            border: 1px solid #ccc;
+            background-color: #ccc;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .enhance{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-header" class="card">
+        <h1>my website</h1>
+        <p>site bout me</p>
+    </div>
+    <ul id="main-nav">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+    <!-- to add id to any tag just write the tag and then #with type of id you want
+    eg- h1#about = <h1 id="about"//// but in case of div we can just put # and the id attribut it will directly give us that-->
+<!-- difference between span and div is that the div takes out the content to l=next line as it is block level element
+whereas spam makes thed changes while being in the same line as that of content. -->
+    <div id="about" class="card">
+        <h3>about</h3>
+        <p>Lorem ipsum, dolor sit amet <spam class="enhance"> consectetur adipisicing elit. Non, accusantium?</p>
+    </spam></div>
+    <div id="contact" class="card">
+        <h3>contact me</h3>
+        <ul>
+            <li>address -- vgsavfhwbfw</li>
+            <li>phone no. - 54984669</li>
+            <li>email - xyz@xyz.com</li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>copyright &copy; 2019</p>
+    </div>
+</body>
+</html>
