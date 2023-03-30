@@ -1,0 +1,4 @@
+var first ='hello';
+var second = 'worlld';
+
+alert(first + ' '+ second);
