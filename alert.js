@@ -1,0 +1,2 @@
+alert("text");
+aalert("world");
