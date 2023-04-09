@@ -1,0 +1,14 @@
+document.firstElementChild;
+document.firstElementChild.firstElementChild;
+document.firstElementChild.lastElementChild.previousElementSibling.previousElementSibling.firstElementChild;
+<h1>​Project Starter​</h1>​
+var heading = document.firstElementChild.lastElementChild.previousElementSibling.previousElementSibling.firstElementChild;
+heading.innerHTML = 'good bye';
+heading.style.color = 'red';
+document.querySelector["input"].click();
+document.querySelector("input").click();
+
+ document.firstElementChild.firstElementChild.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling;
+<li class=​"list">​…​</li>​
+var list3 = "3rd";
+list3.innerHTML = "3rd";
