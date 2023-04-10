@@ -12,3 +12,5 @@ document.querySelector("input").click();
 <li class=​"list">​…​</li>​
 var list3 = "3rd";
 list3.innerHTML = "3rd";
+document.querySelectorAll("#list .item")[2].style.color = "blue";
+document.querySelector("#list a").style.color = "pink";
