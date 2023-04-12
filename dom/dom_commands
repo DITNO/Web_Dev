@@ -19,4 +19,5 @@ getElementByClass("clas_name");
 getElementById("idname");
 INNERHTML vs TEXTCONTENT 
 one might give away tag associated with it but the other will only give out the text inside selected tag.
-
+.getattribute
+.setattribute
