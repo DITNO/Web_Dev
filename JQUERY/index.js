@@ -5,3 +5,6 @@ $(document).keypress(function(event){
 $('button').click(function() {
     $('h1').css('color','purple');
 });
+$('button').on('click',function(){
+    $('h1').hide();
+})
