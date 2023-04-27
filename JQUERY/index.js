@@ -8,3 +8,10 @@ $('button').click(function() {
 $('button').on('click',function(){
     $('h1').hide();
 })
+// $('h1').on('click',function(){
+//     $('button').slideUp();});
+// $('h1').on('click',function(){
+//     $('button').slideDown();});
+$('h1').on('click',function(){
+    $('button').slideToggle();
+});
