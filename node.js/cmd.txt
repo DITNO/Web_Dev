@@ -1,0 +1,5 @@
+cd - to change directory
+touch -  to create file
+node -  to initiaztes the execution
+dr - to change the directory
+.exit or ctrl + c - to exit compliation
